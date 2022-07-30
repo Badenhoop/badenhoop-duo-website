@@ -18,7 +18,7 @@ const config = {
     }),
     paths: {
       // change below to your repo name
-      base: "/badenhoop-duo-website"
+      base: process.env.NODE_ENV === "production" ? "/badenhoop-duo-website" : ""
     },
     prerender: {
       default: true
