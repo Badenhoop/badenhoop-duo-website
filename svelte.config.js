@@ -16,6 +16,10 @@ const config = {
       pages: "docs",
       assets: "docs"
     }),
+    paths: {
+      // change below to your repo name
+      base: "/badenhoop-duo-website"
+    },
     prerender: {
       default: true
     }
