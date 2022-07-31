@@ -1,9 +1,15 @@
 const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
-  mode: 'jit',
 
   theme: {
     extend: {},
+    fontFamily: {
+      'body': 'Baskervville',
+      'title': 'Playfair Display SC'
+    },
+    backgroundImage: {
+      'hero': "url('/img/duo1.jpg')",
+    },
   },
 
   plugins: [],

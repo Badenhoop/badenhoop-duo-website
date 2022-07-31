@@ -1,5 +1,5 @@
-import adapter from "@sveltejs/adapter-static";
-import preprocess from "svelte-preprocess";
+import adapter from "@sveltejs/adapter-static"
+import preprocess from "svelte-preprocess"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,15 +14,15 @@ const config = {
   kit: {
     adapter: adapter({
       pages: "docs",
-      assets: "docs"
+      assets: "docs",
     }),
     paths: {
       // change below to your repo name
-      base: process.env.NODE_ENV === "production" ? "/badenhoop-duo-website" : ""
+      base: process.env.NODE_ENV === "production" ? "/badenhoop-duo-website" : "",
     },
     prerender: {
-      default: true
-    }
+      default: true,
+    },
   },
 };
 
