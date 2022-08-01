@@ -9,7 +9,7 @@
   <ScrollDownArrow class="mx-auto" color="black" />
 </div>
 <Service  
-  img={resolve('/img/wedding2.jpg')}
+  img={resolve('img/wedding2.jpg')}
   color="white"
   align='left'
   title="1. Der Perfekte Moment"
@@ -20,7 +20,7 @@
     "ab 299€"
   ]} />
 <Service
-  img={resolve('/img/party.jpg')}
+  img={resolve('img/party.jpg')}
   color="black"
   align='center'
   title="2. Untermalung"
@@ -31,7 +31,7 @@
     "ab 499€"
   ]} />
 <Service
-  img={resolve('/img/mic.jpg')}
+  img={resolve('img/mic.jpg')}
   color="white"
   align='right'
   title="3. Showprogramm"
