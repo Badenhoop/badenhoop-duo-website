@@ -1,5 +1,5 @@
 <script>
-    import { resolve } from "../lib/path"
+    import { resolve } from "$lib/utils"
     import SEO from "../components/homepage/SEO.svelte"
     import Navbar from "../components/homepage/Navbar.svelte"
     import Hero from "../components/homepage/Hero.svelte"
@@ -20,13 +20,13 @@
 <Showcase />
 <About />
 <Gallery images={[
-    resolve('/img/duo3.jpg'),
-    resolve('/img/duo2.jpg'),
-    resolve('/img/duo1.jpg'),
+    resolve('img/duo3.jpg'),
+    resolve('img/duo2.jpg'),
+    resolve('img/duo1.jpg'),
 ]} />
 <Samples samples={[
-    { title: 'Song1', url: resolve('/audio/song1.mp3') },
-    { title: 'Song2', url: resolve('/audio/song2.mp3') },
+    { title: 'Song1', url: resolve('audio/song1.mp3') },
+    { title: 'Song2', url: resolve('audio/song2.mp3') },
 ]} />
 <Services />
 <Testimonials />
