@@ -8,7 +8,7 @@ const config = {
       'title': 'Playfair Display SC'
     },
     backgroundImage: {
-      'hero': "url('img/duo1.jpg')",
+      'hero': "url('/img/duo1.jpg')",
     },
   },
 

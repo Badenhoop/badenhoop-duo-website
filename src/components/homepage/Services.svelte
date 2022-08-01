@@ -1,6 +1,7 @@
 <script lang="ts">
-  import ScrollDownArrow from "../ScrollDownArrow.svelte"
-  import Service from "../Service.svelte"
+  import { resolve } from '$lib/utils'
+  import ScrollDownArrow from '../ScrollDownArrow.svelte'
+  import Service from '../Service.svelte'
 </script>
 
 <div class="mx-8 my-12">
@@ -8,7 +9,7 @@
   <ScrollDownArrow class="mx-auto" color="black" />
 </div>
 <Service  
-  img="/img/wedding2.jpg"
+  img={resolve('/img/wedding2.jpg')}
   color="white"
   align='left'
   title="1. Der Perfekte Moment"
@@ -19,7 +20,7 @@
     "ab 299€"
   ]} />
 <Service
-  img="/img/party.jpg"
+  img={resolve('/img/party.jpg')}
   color="black"
   align='center'
   title="2. Untermalung"
@@ -30,7 +31,7 @@
     "ab 499€"
   ]} />
 <Service
-  img="/img/mic.jpg"
+  img={resolve('/img/mic.jpg')}
   color="white"
   align='right'
   title="3. Showprogramm"

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LeftRightButton from "../LeftRightButton.svelte"
+  import LeftRightButton from '../LeftRightButton.svelte'
   import { tweened } from 'svelte/motion'
   import { cubicOut } from 'svelte/easing'
 
