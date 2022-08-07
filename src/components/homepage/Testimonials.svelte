@@ -39,7 +39,7 @@
         </div>
         <div class="mx-8 mt-8 px-4 py-6 bg-gray-100 relative">
           <p class="font-body text-lg">{testimonial.text}</p>
-          <h1 class="font-body text-2xl absolute top-[-1rem]">{testimonial.title}</h1>
+          <h1 class="font-body text-2xl absolute top-[-1.1rem]">{testimonial.title}</h1>
         </div>
       </div>
     {/each}

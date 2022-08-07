@@ -12,5 +12,5 @@
 
 <style>
   .question { @apply font-body text-white text-xl mt-6; }
-  .answer { @apply font-body text-white text-base mt-2; }
+  .answer { @apply font-body text-gray-200 text-base mt-2; }
 </style>
