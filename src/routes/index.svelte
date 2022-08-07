@@ -29,7 +29,18 @@
     { title: 'Song2', url: resolve('audio/song2.mp3') },
 ]} />
 <Services />
-<Testimonials />
+<Testimonials testimonials={[
+    {
+        image: resolve('img/face.jpg'),
+        title: 'Bruno Mars',
+        text: 'Absolut fantastische Performance. Isabell und Philipp Badenhoop haben uns den Moment unserer Trauung einfach perfekt gemacht.',
+    },
+    {
+        image: resolve('img/face.jpg'),
+        title: 'Bruno Mars',
+        text: 'Absolut fantastische Performance. Isabell und Philipp Badenhoop haben uns den Moment unserer Trauung einfach perfekt gemacht.',
+    },
+]} />
 <FAQ />
 <Contact />
 <Footer />

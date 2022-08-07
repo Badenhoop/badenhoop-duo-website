@@ -23,7 +23,6 @@
     }
     selected = i
   }
-
 </script>
 
 <div class="bg-black flex flex-col items-center py-12 px-8">

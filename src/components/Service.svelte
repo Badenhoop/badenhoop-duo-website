@@ -13,7 +13,7 @@
   class="bg-cover bg-center grayscale w-full h-[32rem] relative shadow-{colorInverted}"
   style="background-image: url('{img}')">
   <div class="absolute bottom-0 flex flex-row items-stretch space-x-4 m-8">
-    <div class="w-2 bg-{color}"></div>
+    <div class="w-2" style:background={color}></div>
     <div>
       <h1 class="font-body text-2xl text-{color}">{title}</h1>
       <p class="font-body text-sm text-{color} ml-4">{subtitle}</p>

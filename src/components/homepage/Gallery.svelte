@@ -20,7 +20,6 @@
     selected = (selected + 1) % images.length
     offset.set(selected)
   }
-
 </script>
 
 <div class="w-full h-[36rem] relative overflow-hidden">

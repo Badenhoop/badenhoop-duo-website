@@ -1,6 +1,6 @@
 <section class="mx-8 mb-12">
   <h1 class="font-body text-2xl text-center mt-12 mb-8">
-    Das sind Wir.</h1>
+    Das sind Wir</h1>
   <p class="font-body text-lg">
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     <br>

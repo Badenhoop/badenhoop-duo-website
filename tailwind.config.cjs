@@ -5,7 +5,8 @@ const config = {
     extend: {},
     fontFamily: {
       'body': 'Baskervville',
-      'title': 'Playfair Display SC'
+      'title': 'Playfair Display SC',
+      'question-mark': 'Berkshire Swash',
     },
     backgroundImage: {
       'hero': "url('/img/duo1.jpg')",
