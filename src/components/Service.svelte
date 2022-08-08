@@ -7,19 +7,31 @@
   export let items: string[]
 
   $: colorInverted = color === 'black' ? 'white' : 'black'
+  let justify: string
+  $: switch (align) {
+    case 'left':
+      justify = 'justify-start'
+      break
+    case 'center':
+      justify = 'justify-start sm:justify-center'
+      break
+    case 'right':
+      justify = 'justify-start sm:justify-end'
+      break
+  }
 </script>
 
 <div 
-  class="bg-cover bg-center grayscale w-full h-[32rem] relative shadow-{colorInverted}"
+  class="bg-cover bg-center grayscale w-full h-[36rem] relative shadow-{colorInverted}"
   style="background-image: url('{img}')">
-  <div class="absolute bottom-0 flex flex-row items-stretch space-x-4 m-8">
+  <div class={`absolute bottom-0 w-full flex flex-row items-stretch space-x-4 p-8 sm:px-16 sm:py-12 ${justify}`}>
     <div class="w-2" style:background={color}></div>
     <div>
-      <h1 class="font-body text-2xl text-{color}">{title}</h1>
-      <p class="font-body text-sm text-{color} ml-4">{subtitle}</p>
+      <h1 class="font-body text-2xl sm:text-4xl text-{color}">{title}</h1>
+      <p class="font-body text-sm sm:text-base text-{color} opacity-90 ml-4 my-0 sm:my-1">{subtitle}</p>
       <ul>
         {#each items as item}
-          <li class="font-body text-lg text-{color} list-disc ml-8">{item}</li>
+          <li class="font-body text-lg sm:text-xl text-{color} opacity-90 list-disc ml-8">{item}</li>
         {/each}
       </ul>
     </div>

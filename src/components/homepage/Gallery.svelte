@@ -28,9 +28,9 @@
       <div class="bg-cover bg-center grayscale w-screen h-full" style={`background-image: url('${image}')`}></div>
     {/each}
   </div>
-  <div class="w-full h-full absolute bottom-0 flex flex-row justify-between items-end p-8 shadow">
+  <div class="w-full h-full absolute bottom-0 flex flex-row justify-between items-end p-8 sm:p-12 shadow">
     <LeftRightButton direction="left" color="white" on:click={left} />
-    <h1 class="font-body text-white text-2xl text-center">Unsere Gallerie</h1>
+    <h1 class="font-body text-white text-2xl sm:text-4xl text-center">Unsere Gallerie</h1>
     <LeftRightButton direction="right" color="white" on:click={right} />
   </div>
 </div>

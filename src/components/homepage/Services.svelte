@@ -4,9 +4,9 @@
   import Service from '../Service.svelte'
 </script>
 
-<div class="mx-8 my-12">
-  <h1 class="font-body text-2xl text-center">Unsere Angebote</h1>
-  <ScrollDownArrow class="mx-auto" color="black" />
+<div class="mx-8 my-12 sm:my-20">
+  <h1 class="font-body text-2xl sm:text-4xl text-center">Unsere Angebote</h1>
+  <ScrollDownArrow class="mx-auto mt-2 sm:mt-4" color="black" />
 </div>
 <Service  
   img={resolve('img/wedding2.jpg')}

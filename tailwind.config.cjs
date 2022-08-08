@@ -10,6 +10,7 @@ const config = {
     },
     backgroundImage: {
       'hero': "url('/img/duo1.jpg')",
+      'player': "url('/img/player.jpg')"
     },
   },
 

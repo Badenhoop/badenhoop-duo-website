@@ -25,8 +25,9 @@
     resolve('img/duo1.jpg'),
 ]} />
 <Samples samples={[
-    { title: 'Song1', url: resolve('audio/song1.mp3') },
-    { title: 'Song2', url: resolve('audio/song2.mp3') },
+    { title: 'Love is just a word', url: resolve('audio/song1.mp3') },
+    { title: 'Angel', url: resolve('audio/song2.mp3') },
+    { title: 'Thank you for the music', url: resolve('audio/song2.mp3') },
 ]} />
 <Services />
 <Testimonials testimonials={[
