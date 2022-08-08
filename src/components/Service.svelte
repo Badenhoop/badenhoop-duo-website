@@ -22,7 +22,7 @@
 </script>
 
 <div 
-  class="bg-cover bg-center grayscale w-full h-[36rem] relative shadow-{colorInverted}"
+  class="bg-cover bg-center grayscale w-full h-[36rem] lg:h-screen relative shadow-{colorInverted}"
   style="background-image: url('{img}')">
   <div class={`absolute bottom-0 w-full flex flex-row items-stretch space-x-4 p-8 sm:px-16 sm:py-12 ${justify}`}>
     <div class="w-2" style:background={color}></div>

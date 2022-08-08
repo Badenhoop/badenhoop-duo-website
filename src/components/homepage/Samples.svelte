@@ -25,7 +25,7 @@
   }
 </script>
 
-<div class="sm:bg-player sm:grayscale sm:bg-cover sm:bg-center sm:relative sm:h-[36em]">
+<div class="sm:bg-player sm:grayscale sm:bg-cover sm:bg-center sm:relative sm:h-[36em] lg:h-screen">
   <div class="bg-black flex flex-col items-center sm:items-start py-12 px-8 sm:px-12 sm:absolute sm:top-16 sm:left-16">
     <h1 class="font-body text-2xl sm:text-4xl text-white text-center sm:text-left mb-4">Hörbeispiele</h1>
     <div>

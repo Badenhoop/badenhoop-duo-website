@@ -22,7 +22,7 @@
   }
 </script>
 
-<div class="w-full h-[36rem] relative overflow-hidden">
+<div class="w-full h-[36rem] lg:h-screen relative overflow-hidden">
   <div class="flex flex-row h-full absolute" style:width={images.length * 100} style:margin-left={`${-$offset * 100}vw`}>
     {#each images as image}
       <div class="bg-cover bg-center grayscale w-screen h-full" style={`background-image: url('${image}')`}></div>
