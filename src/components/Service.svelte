@@ -40,17 +40,17 @@
 
 <style>
   .shadow-black {
-    box-shadow: inset 0 -16rem 10rem 0 rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0 -16rem 10rem 0 rgba(0, 0, 0, 0.8);
   }
   .shadow-white {
-    box-shadow: inset 0 -16rem 10rem 0 rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 -16rem 10rem 0 rgba(255, 255, 255, 0.8);
   }
   @media (min-width: 1024px) {
     .shadow-black {
-      box-shadow: inset 0 -32rem 20rem 0 rgba(0, 0, 0, 0.9);
+      box-shadow: inset 0 -24rem 16rem 0 rgba(0, 0, 0, 0.8);
     }
     .shadow-white {
-      box-shadow: inset 0 -32rem 20rem 0 rgba(255, 255, 255, 0.9);
+      box-shadow: inset 0 -24rem 16rem 0 rgba(255, 255, 255, 0.8);
     }
   }
 </style>

@@ -42,11 +42,11 @@
 
 <style>
   .shadow {
-    box-shadow: inset 0 -6rem 6rem 0 rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0 -6rem 6rem 0 rgba(0, 0, 0, 0.8);
   }
   @media (min-width: 1024px) {
     .shadow {
-      box-shadow: inset 0 -24rem 20rem 0 rgba(0, 0, 0, 0.9);
+      box-shadow: inset 0 -10rem 16rem 0 rgba(0, 0, 0, 0.8);
     }
   }
 </style>

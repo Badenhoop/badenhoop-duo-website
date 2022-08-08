@@ -13,11 +13,11 @@
 
 <style>
   .shadow {
-    box-shadow: inset 0 -16rem 10rem 0 rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0 -16rem 10rem 0 rgba(0, 0, 0, 0.8);
   }
   @media (min-width: 640px) {
     .shadow {
-      box-shadow: inset 0 -24rem 20rem 0 rgba(0, 0, 0, 0.9);
+      box-shadow: inset 0 -24rem 20rem 0 rgba(0, 0, 0, 0.8);
     }
   }
 </style>
