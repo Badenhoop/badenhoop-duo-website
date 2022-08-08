@@ -1,5 +1,6 @@
 <script lang="ts">
   import LeftRightButton from '../LeftRightButton.svelte'
+  import ScrollDownArrow from '../ScrollDownArrow.svelte'
   import { tweened } from 'svelte/motion'
   import { cubicOut } from 'svelte/easing'
 
@@ -28,15 +29,24 @@
       <div class="bg-cover bg-center grayscale w-screen h-full" style={`background-image: url('${image}')`}></div>
     {/each}
   </div>
-  <div class="w-full h-full absolute bottom-0 flex flex-row justify-between items-end p-8 sm:p-12 shadow">
-    <LeftRightButton direction="left" color="white" on:click={left} />
-    <h1 class="font-body text-white text-2xl sm:text-4xl text-center">Unsere Gallerie</h1>
-    <LeftRightButton direction="right" color="white" on:click={right} />
+  <div class="w-full h-full absolute shadow"></div>
+  <div class="w-full absolute bottom-0 p-8 sm:p-12 lg:p-24">
+    <div class="flex flex-row justify-between items-center">
+      <LeftRightButton direction="left" color="white" on:click={left} />
+      <h1 class="font-body text-white text-2xl sm:text-4xl lg:text-6xl text-center">Unsere Gallerie</h1>
+      <LeftRightButton direction="right" color="white" on:click={right} />
+    </div>
+    <ScrollDownArrow class="mx-auto lg:mt-4" color="white" />
   </div>
 </div>
 
 <style>
   .shadow {
     box-shadow: inset 0 -6rem 6rem 0 rgba(0, 0, 0, 0.9);
+  }
+  @media (min-width: 1024px) {
+    .shadow {
+      box-shadow: inset 0 -24rem 20rem 0 rgba(0, 0, 0, 0.9);
+    }
   }
 </style>
